@@ -1,6 +1,6 @@
 {
   "link_sample": 3,
-  "measured_at": "2026-08-24T18:21:54+00:00",
+  "measured_at": "2026-08-24T18:31:36+00:00",
   "providers": [
     {
       "ats_family": "Greenhouse",
@@ -29,12 +29,12 @@
         200
       ],
       "latency_ms": {
-        "max": 524.56,
-        "median": 517.76,
-        "min": 356.97
+        "max": 220.04,
+        "median": 197.5,
+        "min": 181.37
       },
       "payload_bytes": 3267570,
-      "payload_sha256": "65e457d29c22c0dd9c0f4901355c9727fa8fbd26700377c06da42fea5ca1cbeb",
+      "payload_sha256": "308f9ce82734c66f47c67ce7375625cdb1d465d4edcd1128c990de2d0ce95fcd",
       "provider": "GitLab",
       "record_count": 204,
       "runs": 3
@@ -66,9 +66,9 @@
         200
       ],
       "latency_ms": {
-        "max": 355.9,
-        "median": 239.2,
-        "min": 161.58
+        "max": 124.47,
+        "median": 28.41,
+        "min": 23.25
       },
       "payload_bytes": 272768,
       "payload_sha256": "d6febdaea9f0a101c4cce752ab7238694bb8450fe23d401b49982d6b72f72e41",
@@ -103,9 +103,9 @@
         200
       ],
       "latency_ms": {
-        "max": 1529.31,
-        "median": 1461.42,
-        "min": 1440.74
+        "max": 1365.79,
+        "median": 894.08,
+        "min": 427.76
       },
       "payload_bytes": 5946353,
       "payload_sha256": "334590a18311a76d7979d86c7e9255ccf5572d36414b6af9664e6c6ed87d4d78",
@@ -136,12 +136,12 @@
         200
       ],
       "latency_ms": {
-        "max": 741.61,
-        "median": 641.87,
-        "min": 574.52
+        "max": 694.56,
+        "median": 504.35,
+        "min": 495.18
       },
-      "payload_bytes": 234124,
-      "payload_sha256": "8f5218a79235ecb183752f2d6abe72a8e3678018c93ab93c5497eb25575efc7b",
+      "payload_bytes": 234129,
+      "payload_sha256": "29f327b9319bd06b06d0c860d3e019626f3b0b059f52f9b51e39025314c53ebc",
       "provider": "ServiceNow",
       "record_count": 100,
       "runs": 3

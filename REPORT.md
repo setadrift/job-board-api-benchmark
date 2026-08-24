@@ -1,13 +1,13 @@
 # Public job-board API benchmark
 
-Measured at **2026-08-24T18:21:54+00:00** using 3 sequential requests per list endpoint.
+Measured at **2026-08-24T18:31:36+00:00** using 3 sequential requests per list endpoint.
 
 | ATS and test board | Records | Median latency (ms) | Location present | Published date present | Candidate URL in list | Duplicate IDs | Sampled links reachable |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Greenhouse (GitLab) | 204 | 517.8 | 100% | 100% | 100% | 0 | 100% |
-| Ashby (SearchApi) | 12 | 239.2 | 100% | 100% | 100% | 0 | 100% |
-| Lever (Palantir) | 308 | 1461.4 | 100% | 100% | 100% | 0 | 100% |
-| SmartRecruiters (ServiceNow) | 100 | 641.9 | 100% | 100% | 0% | 0 | n/a |
+| Greenhouse (GitLab) | 204 | 197.5 | 100% | 100% | 100% | 0 | 100% |
+| Ashby (SearchApi) | 12 | 28.4 | 100% | 100% | 100% | 0 | 100% |
+| Lever (Palantir) | 308 | 894.1 | 100% | 100% | 100% | 0 | 100% |
+| SmartRecruiters (ServiceNow) | 100 | 504.4 | 100% | 100% | 0% | 0 | n/a |
 
 ## What this result means
 
