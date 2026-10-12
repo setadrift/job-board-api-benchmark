@@ -1,6 +1,6 @@
 {
   "link_sample": 3,
-  "measured_at": "2026-09-28T20:06:25+00:00",
+  "measured_at": "2026-10-12T21:43:07+00:00",
   "providers": [
     {
       "ats_family": "Greenhouse",
@@ -29,14 +29,14 @@
         200
       ],
       "latency_ms": {
-        "max": 161.41,
-        "median": 129.78,
-        "min": 95.26
+        "max": 327.37,
+        "median": 274.64,
+        "min": 271.24
       },
-      "payload_bytes": 3129146,
-      "payload_sha256": "2cf50748c53c9cfdd9a78d01c471cb54ded8e0687928b15dd99f950c91bc89a7",
+      "payload_bytes": 3479032,
+      "payload_sha256": "2ae624adc1b36ff23585455c9bef289b6035e0e05190874de25520d2ad7b0a78",
       "provider": "GitLab",
-      "record_count": 198,
+      "record_count": 221,
       "runs": 3
     },
     {
@@ -66,9 +66,9 @@
         200
       ],
       "latency_ms": {
-        "max": 41.86,
-        "median": 34.3,
-        "min": 31.14
+        "max": 222.95,
+        "median": 110.73,
+        "min": 106.71
       },
       "payload_bytes": 272768,
       "payload_sha256": "d6febdaea9f0a101c4cce752ab7238694bb8450fe23d401b49982d6b72f72e41",
@@ -103,14 +103,14 @@
         200
       ],
       "latency_ms": {
-        "max": 13254.96,
-        "median": 1739.07,
-        "min": 1527.7
+        "max": 1473.97,
+        "median": 971.43,
+        "min": 936.44
       },
-      "payload_bytes": 6189633,
-      "payload_sha256": "8fee43f43c3a4d0ab7f2d6410da4e1ea6e6e49b36aba669aecb81576fb71feb3",
+      "payload_bytes": 6024643,
+      "payload_sha256": "e20c70f1a12b6f82d8cc2170c916866931fa7c5bd9c128de6afda6c9cba0cf73",
       "provider": "Palantir",
-      "record_count": 321,
+      "record_count": 310,
       "runs": 3
     },
     {
@@ -136,12 +136,12 @@
         200
       ],
       "latency_ms": {
-        "max": 451.61,
-        "median": 441.69,
-        "min": 395.63
+        "max": 498.56,
+        "median": 483.28,
+        "min": 463.62
       },
-      "payload_bytes": 235635,
-      "payload_sha256": "8700935bcece7610f53eb1aca121e63869c26fe65b4ddd4d9e21d18e33610acf",
+      "payload_bytes": 234874,
+      "payload_sha256": "977edbb308daa1794c01539aad52fc33c9c00db199ea1d353eefd7c149755bcf",
       "provider": "ServiceNow",
       "record_count": 100,
       "runs": 3
