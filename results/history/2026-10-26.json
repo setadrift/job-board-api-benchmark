@@ -1,0 +1,152 @@
+{
+  "link_sample": 3,
+  "measured_at": "2026-10-26T14:52:30+00:00",
+  "providers": [
+    {
+      "ats_family": "Greenhouse",
+      "candidate_links": {
+        "sampled": 3,
+        "statuses": [
+          200,
+          200,
+          200
+        ],
+        "success_pct": 100.0,
+        "successful": 3
+      },
+      "duplicate_id_count": 0,
+      "endpoint": "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs?content=true",
+      "field_presence_pct": {
+        "application_url": 100.0,
+        "id": 100.0,
+        "location": 100.0,
+        "published_at": 100.0,
+        "title": 100.0
+      },
+      "http_statuses": [
+        200,
+        200,
+        200
+      ],
+      "latency_ms": {
+        "max": 270.32,
+        "median": 227.01,
+        "min": 178.65
+      },
+      "payload_bytes": 3746103,
+      "payload_sha256": "919d2261d7ad90827a5d29cb57bf241a4c904a2a1fe72e1fcb8749bdc8a822ff",
+      "provider": "GitLab",
+      "record_count": 239,
+      "runs": 3
+    },
+    {
+      "ats_family": "Ashby",
+      "candidate_links": {
+        "sampled": 3,
+        "statuses": [
+          206,
+          206,
+          206
+        ],
+        "success_pct": 100.0,
+        "successful": 3
+      },
+      "duplicate_id_count": 0,
+      "endpoint": "https://api.ashbyhq.com/posting-api/job-board/searchapi?includeCompensation=true",
+      "field_presence_pct": {
+        "application_url": 100.0,
+        "id": 100.0,
+        "location": 100.0,
+        "published_at": 100.0,
+        "title": 100.0
+      },
+      "http_statuses": [
+        200,
+        200,
+        200
+      ],
+      "latency_ms": {
+        "max": 164.91,
+        "median": 146.6,
+        "min": 111.81
+      },
+      "payload_bytes": 272768,
+      "payload_sha256": "d6febdaea9f0a101c4cce752ab7238694bb8450fe23d401b49982d6b72f72e41",
+      "provider": "SearchApi",
+      "record_count": 12,
+      "runs": 3
+    },
+    {
+      "ats_family": "Lever",
+      "candidate_links": {
+        "sampled": 3,
+        "statuses": [
+          200,
+          200,
+          200
+        ],
+        "success_pct": 100.0,
+        "successful": 3
+      },
+      "duplicate_id_count": 0,
+      "endpoint": "https://api.lever.co/v0/postings/palantir?mode=json",
+      "field_presence_pct": {
+        "application_url": 100.0,
+        "id": 100.0,
+        "location": 100.0,
+        "published_at": 100.0,
+        "title": 100.0
+      },
+      "http_statuses": [
+        200,
+        200,
+        200
+      ],
+      "latency_ms": {
+        "max": 7609.1,
+        "median": 946.61,
+        "min": 839.71
+      },
+      "payload_bytes": 6034105,
+      "payload_sha256": "ba763a4702532c3a7883ac4fdf974f111cb1482fce4532113fdebd04d3c6ceb6",
+      "provider": "Palantir",
+      "record_count": 309,
+      "runs": 3
+    },
+    {
+      "ats_family": "SmartRecruiters",
+      "candidate_links": {
+        "sampled": 0,
+        "statuses": [],
+        "success_pct": null,
+        "successful": 0
+      },
+      "duplicate_id_count": 0,
+      "endpoint": "https://api.smartrecruiters.com/v1/companies/ServiceNow/postings",
+      "field_presence_pct": {
+        "application_url": 0.0,
+        "id": 100.0,
+        "location": 100.0,
+        "published_at": 100.0,
+        "title": 100.0
+      },
+      "http_statuses": [
+        200,
+        200,
+        200
+      ],
+      "latency_ms": {
+        "max": 500.24,
+        "median": 492.52,
+        "min": 467.36
+      },
+      "payload_bytes": 232964,
+      "payload_sha256": "13474f6d9eb7063f77e05d0addd3a54319f23f98fddf5b146f9d16e626d8d769",
+      "provider": "ServiceNow",
+      "record_count": 100,
+      "runs": 3
+    }
+  ],
+  "runs_per_provider": 3,
+  "schema_version": 1
+}
